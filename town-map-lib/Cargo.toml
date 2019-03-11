@@ -1,0 +1,13 @@
+[package]
+name = "town-map-lib"
+version = "0.0.1"
+authors = ["YakoYakoYokuYoku"]
+edition = "2018"
+
+[dependencies]
+sdl2 = { version = "0.32.1", default-features = false, features = ["gfx", "ttf"] }
+gfx = "0.18.0"
+gfx_window_sdl = "0.9.0"
+rand = "0.6.5"
+num-traits = "0.2.6"
+num-complex = "0.2.1"
