@@ -109,7 +109,6 @@ fn drawcircle<T: ToPrimitive>(canvas: &mut Canvas<Window>, p: &mut Coordinate, r
 }
 
 pub trait PlotMethod<T> {
-    #[inline]
     fn plottype(
         function: &Fn(Self) -> Self,
         canvas: &mut Canvas<Window>,
